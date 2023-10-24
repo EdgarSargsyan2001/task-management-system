@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/login_background.jpg</file>
+        <file>img/registr_background.png</file>
+        <file>img/icons/armenain_flag.png</file>
+        <file>img/icons/english_flag.jpg</file>
+    </qresource>
+    <qresource prefix="/lib"/>
+    <qresource prefix="/lib" lang="a"/>
+    <qresource prefix="/">
+        <file>MySql_lib/libmysql.dll</file>
+        <file>Languages/armenian_language.ts</file>
+        <file>Languages/armenian_language.qm</file>
+    </qresource>
+</RCC>
