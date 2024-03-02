@@ -50,16 +50,16 @@ int main(int argc, char *argv[])
 void set_settings_value(){
     QSettings settings(".env", QSettings::IniFormat);
     //database
-    settings.setValue("DATABASE_NAME", "sql12646852");
-    settings.setValue("HOST", "sql12.freesqldatabase.com");
-    settings.setValue("PASSWORD", "6jl9bZkk1d");
-    settings.setValue("USER_NAME", "sql12646852");
+    settings.setValue("DATABASE_NAME", "");
+    settings.setValue("HOST", "");
+    settings.setValue("PASSWORD", "");
+    settings.setValue("USER_NAME", "");
 
     //SMTP
-    settings.setValue("SMTP_HOST", "smtp-relay.brevo.com");
-    settings.setValue("SMTP_PASSWORD", "5m0SJr9BUajv2xhg");
-    settings.setValue("SMTP_PORT", "587");
-    settings.setValue("SMTP_SENDER", "taskms@gmail.com");
-    settings.setValue("SMTP_USERNAME", "edgar.sargsyan.2001@mail.ru");
+    settings.setValue("SMTP_HOST", "");
+    settings.setValue("SMTP_PASSWORD", "");
+    settings.setValue("SMTP_PORT", "");
+    settings.setValue("SMTP_SENDER", "");
+    settings.setValue("SMTP_USERNAME", "");
 
 }
